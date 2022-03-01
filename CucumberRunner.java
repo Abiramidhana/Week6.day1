@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 import steps.BaseClass;
 
 @CucumberOptions(
-		features="src/test/java/features/login.feature",
+		features="src/test/java/features/DeleteLead.feature",
 		glue={"steps"},
 		publish=true
 		)
